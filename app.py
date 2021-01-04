@@ -410,7 +410,7 @@ def masterclass (n_clicks,technology,parameter):
             orientation='h',
             x="value",
             y="source",
-            #color="value",
+            
             hover_name="region",
             hover_data=["technology","input_energy_vector","parameter_name","unit"],
             labels={"source": "Simulation Framework"},
